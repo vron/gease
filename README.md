@@ -12,6 +12,7 @@ To see smooth easings on positions, sizes and colors you can run:
 
     go run github.com/vron/gease/example
 
+Inspired by: https://www.react-spring.io/
 
 ## Allocations
 The pacakge has beed designed to minimize GC pressure during animations, in particular there
