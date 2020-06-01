@@ -37,4 +37,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Fmt
-        run: test -z $(go fmt github.com/vron/gease
+        run: test -z $(go fmt github.com/vron/gease)
