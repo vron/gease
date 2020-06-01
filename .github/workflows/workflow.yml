@@ -9,7 +9,7 @@ jobs:
     runs-on: ${{ matrix.platform }}
     steps:
       - name: Install required packages
-        run : sudo apt-get install xorg-dev libgl1-mesa-dev libglfw3-dev libgles2-mesa-dev xkbcommon-x11-dev
+        run : sudo apt-get install xorg-dev libgl1-mesa-dev libglfw3-dev libgles2-mesa-dev xkbcommon-x11-0
         if: runner.os == 'Linux'
       - name: Install Go
         uses: actions/setup-go@v1
