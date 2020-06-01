@@ -1,7 +1,7 @@
 # gease
 Easings / animations for gioui
 
-![Test](https://github.com/vron/gease/workflows/Test/badge.svg?branch=master)
+![Test](https://github.com/vron/gease/workflows/Test/badge.svg)
 
 WIP: looking for input on API / feedback.
 
