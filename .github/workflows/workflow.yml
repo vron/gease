@@ -20,11 +20,11 @@ jobs:
       - name: Download
         run: go mod download
       - name: Vet
-        run: go vet github.com/vron/gease/...
+        run: go vet github.com/vron/gease
       - name: Test
-        run: go test github.com/vron/gease/...
+        run: go test github.com/vron/gease
       - name: Test race
-        run: go test -race github.com/vron/gease/...
+        run: go test -race github.com/vron/gease
 
   fmt:
     name: Code formatting
@@ -37,4 +37,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Fmt
-        run: test -z $(go fmt github.com/vron/gease/...)
+        run: test -z $(go fmt github.com/vron/gease
