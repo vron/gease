@@ -1,6 +1,8 @@
 # gease
 Easings / animations for gioui
 
+![Test](https://github.com/vron/gease/workflows/Test/badge.svg?branch=master)
+
 WIP: looking for input on API / feedback.
 
 This package implements spring based convenience methods for animating layouts or draw operations
