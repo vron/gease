@@ -62,7 +62,7 @@ func (es *PointEasing) Step(t time.Time) (converged bool) {
 }
 
 func (es *PointEasing) converged() bool {
-	p := 0.001
+	p := 0.00001
 	return es.x.converged(float64(es.target.X), p) &&
 		es.y.converged(float64(es.target.Y), p)
 }
